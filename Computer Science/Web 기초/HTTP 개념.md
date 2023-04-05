@@ -36,9 +36,3 @@ HTTPS는 기밀성, 무결성, 인증, 보안성 등의 보안 요소를 제공�
 HTTPS는 주로 온라인 거래, 금융 정보, 개인정보 등의 보안이 필요한 정보를 전송하는 웹 사이트에서 사용됩니다. 대부분의 웹 브라우저는 HTTPS를 지원하며, 사용자는 HTTPS를 사용하여 통신하는 웹 사이트를 방문할 때 보안 아이콘이 표시됩니다.
 
 HTTP는 기본적으로 TCP/IP 프로토콜 위에서 동작하며, 기본 포트 번호는 80번입니다. HTTPS 프로토콜은 HTTP에 보안 기능을 추가한 것으로, 기본 포트 번호는 443번입니다.
-
--관련 자료-
-
-[https://velog.io/@doomchit_3/Internet-HTTP-개념차렷-IMBETPY](https://velog.io/@doomchit_3/Internet-HTTP-%EA%B0%9C%EB%85%90%EC%B0%A8%EB%A0%B7-IMBETPY)
-
-[https://dreamhack.io/lecture/courses/199](https://dreamhack.io/lecture/courses/199)
