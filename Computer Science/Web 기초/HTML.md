@@ -34,7 +34,3 @@ HTML 문서의 기본 구조는 다음과 같습니다:
 8. **`<p>`**: 단락(Paragraph) 태그로, 텍스트 단락을 표시하는데 사용됩니다.
 
 이 기본 구조를 바탕으로 웹 페이지의 내용과 스타일을 추가하거나 변경할 수 있습니다. HTML은 웹 페이지의 구조와 내용을 표현하는 데 사용되며, CSS(Cascading Style Sheets)와 함께 스타일링을 적용하여 웹 페이지를 더욱 아름답게 디자인할 수 있습니다. 또한, JavaScript를 사용하여 웹 페이지에 동적 기능을 추가할 수 있습니다.
-
--관련 자료-
-
-[https://tcpschool.com/html/intro](https://tcpschool.com/html/intro)
