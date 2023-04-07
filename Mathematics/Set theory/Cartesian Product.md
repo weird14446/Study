@@ -67,7 +67,7 @@ $$
 Im \ R = \begin{Bmatrix} y \in Y : \exists x\in X,\ xRy \in G \end{Bmatrix}
 $$
 
-관계의 성질들은 다음과 같습니다.
+집합 X 위의 관계의 성질들은 다음과 같습니다.
 
 1. 반사성
 
