@@ -9,7 +9,14 @@
 
 집합족에 적용되는 연산 및 개념들은 일반 집합에 적용되는 것들과 유사합니다. 집합족에 대해 합집합, 교집합, 차집합 등의 연산을 수행할 수 있으며, 부분 집합과 전력집합 개념도 적용할 수 있습니다.
 
-집합족은 그래프 이론, 위상수학, 미적분학 등 다양한 수학 분야에서 사용되며, 이론 및 응용문제를 해결하는 데 도움을 줍니다. 또한, 집합족은 컴퓨터 과학, 특히 알고리즘 및 데이터 구조의 설계 및 분석에서도 중요한 역할을 수행합니다.
+집합족이 첨수(번호)가 부여된 집합들로 이루어졌다면, 그 집합족을 첨수족이라 합니다.
+예를 들어, 
+
+$$
+F=\\{ A_1, A_2, A_3... \\}
+$$
+
+와 같이 이루어져 있다면, 그 집합족을 첨수족이라 합니다.
 
 <h2>집합족의 연산</h2>
 
@@ -27,3 +34,108 @@ $$
 $$
 
 <h2>드모르간 법칙</h2>
+
+1.
+
+$$
+( \bigcup _{i\in I}A_i ) ^c=\bigcap _{i\in I}{A_i}^c
+$$
+
+2.
+
+$$
+( \bigcap _{i\in I}A_i ) ^c=\bigcup _{i\in I}{A_i}^c
+$$
+
+1번 드모르간 법칙의 증명
+
+
+$$
+x\in ( \bigcup _{i\in I}A_i ) ^c ⇔ \neg (x\in\bigcup _{i\in I}A_i )\\
+$$
+
+$$
+⇔ \neg (\exists i \in I, \ x\in A_i) \\
+$$
+
+$$
+⇔ \forall i \in I, \ x \notin A_i \ \\
+$$
+
+$$
+⇔ \forall i \in I, \ x \in A_i \ ^c
+$$
+
+$$
+\\ ⇔ x \in \bigcap _{i \in I} A_i \ ^c
+$$
+
+$$
+\therefore ( \bigcup _{i\in I}A_i ) ^c=\bigcap _{i\in I}{A_i}^c \blacksquare
+$$
+
+2번 드모르간 법칙의 증명
+
+$$
+x\in ( \bigcap _{i\in I}A_i ) ^c ⇔ \neg (x\in\bigcap _{i\in I}A_i )\\
+$$
+
+$$
+⇔ \neg (\forall i \in I, \ x\in A_i) \\ 
+$$
+
+$$
+⇔ \exists i \in I, \ x \notin A_i \ \\
+$$
+
+$$
+⇔ \exists i \in I, \ x \in A_i \ ^c
+$$
+
+$$
+\\ ⇔ x \in \bigcup _{i \in I} A_i \ ^c
+$$
+
+$$
+\therefore ( \bigcap _{i\in I}A_i ) ^c=\bigcup _{i\in I}{A_i}^c \blacksquare
+$$
+
+<h2>분배법칙</h2>
+
+1.
+
+$$
+A \cap (\bigcup _{B\in F}B)=(\bigcup _{B\in F}A \cap B)
+$$
+
+2.
+
+$$
+A \cup (\bigcap _{B\in F}B)=(\bigcap _{B\in F}A \cup B)
+$$
+
+1번 분배법칙의 증명
+
+$$
+x\in A \cap (\bigcup _{B\in F}B)⇔ x \in A \land (x\in \bigcup _{B\in F}B)
+$$
+
+$$
+⇔ x\in A \land \exists B \in F, \ x\in B
+$$
+
+$$
+⇔ \exists B\in F, \ x\in A \land x\in B
+$$
+
+$$
+⇔ \exists B \in F, \ x\in (A\cap B)
+$$
+
+$$
+⇔ \bigcup _{B\in F}(A\cap B)
+$$
+
+$$
+\therefore A \cap (\bigcup _{B\in F}B)=(\bigcup _{B\in F}A \cap B) \blacksquare
+$$
