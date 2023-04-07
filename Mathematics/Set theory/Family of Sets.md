@@ -33,7 +33,9 @@ $$
 \bigcap F = \bigcap_{A\in F}A = A_1 \cap A_2\cap A_3...= \\{ x:\forall A\in F, \ x \in A \\} 
 $$
 
-<h2>드모르간 법칙</h2>
+<h2>드 모르간 법칙</h2>
+
+드 모르간 법칙(De Morgan's laws)은 논리학에서 사용되는 법칙으로, 다음과 같은 두 가지 형태로 나타낼 수 있습니다.
 
 1.
 
@@ -47,6 +49,7 @@ $$
 ( \bigcap _{i\in I}A_i ) ^c=\bigcup _{i\in I}{A_i}^c
 $$
 
+<hr>
 1번 드모르간 법칙의 증명
 
 
@@ -102,17 +105,21 @@ $$
 
 <h2>분배법칙</h2>
 
-1.
+집합의 분배법칙(set distributive law)은 집합 연산에서 교집합과 합집합 간의 관계를 나타내는 법칙입니다. 집합의 분배법칙은 다음과 같이 두 가지 형태로 나타낼 수 있습니다.
+
+1. 합집합에 대한 분배법칙:
 
 $$
 A \cap (\bigcup _{B\in F}B)=(\bigcup _{B\in F}A \cap B)
 $$
 
-2.
+2. 교집합에 대한 분배법칙: 
 
 $$
 A \cup (\bigcap _{B\in F}B)=(\bigcap _{B\in F}A \cup B)
 $$
+
+<hr>
 
 1번 분배법칙의 증명
 
