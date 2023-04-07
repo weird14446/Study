@@ -51,13 +51,7 @@ print("Queue size:", queue_size)  # Output: Queue size: 2
 <h2>수학적 정의</h2>
 
 
-$$
-\begin{CD}
-S_A \otimes A @>{ι_{S_A \otimes A,I}}>> S_A \otimes A + I \\
-@Vpush_AVV \ \ \ \ \ \nearrow _{pop_A}@VVpush_A+IV \\
-S_A @>>{ι_{S_A \otimes A,I}}> S_A+I
-\end{CD}
-$$
+![Deque Categories](https://user-images.githubusercontent.com/81010325/230598099-5e1f3532-fce3-4cea-bb6e-376892f38e1b.JPG)
 
 
 위 이미지와 같이 범주론의 맥락에서 큐를 정의할 수 있습니다.
