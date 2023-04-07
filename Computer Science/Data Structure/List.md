@@ -157,7 +157,7 @@ print(combined_list)  # 출력: [1, 2, 3, 4, 5, 6]
 리스트 L은 다음 두 범주를 만족하는 자료구조입니다.
 
 
-![List Categories](https://user-images.githubusercontent.com/81010325/230599323-91c5d066-4fb1-404f-b680-28e445de9e3d.JPG)
+![List Categories](https://user-images.githubusercontent.com/81010325/230601123-8e964d32-c486-48a0-96ff-9fe35d166835.JPG)
 
 
 여기서
@@ -171,7 +171,7 @@ $$
 pop_A:S_A→S_A⊗A+I
 $$
 
-위 두 사상은 각각 push 함수와 pop 함수를 의미지만 실제 프로그래밍에선 append 함수와 remove 함수를 의미합니다.
+위 두 사상은 각각 append 함수와 remove 함수를 의미합니다.
 
 X는 곱이라 부르며, 다음과 같습니다.
 
