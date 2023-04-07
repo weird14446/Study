@@ -139,3 +139,30 @@ $$
 $$
 \therefore A \cap (\bigcup _{B\in F}B)=(\bigcup _{B\in F}A \cap B) \ \ \ \ \ \blacksquare
 $$
+
+2번 분배법칙의 증명
+
+$$
+x\in A \cup (\bigcap _{B\in F}B)
+⇔ x \in A \lor (x\in \bigcap _{B\in F}B)
+$$
+
+$$
+⇔ x\in A \lor \forall B \in F, \ x\in B
+$$
+
+$$
+⇔ \forall B\in F, \ x\in A \lor x\in B
+$$
+
+$$
+⇔ \forall B \in F, \ x\in (A\cup B)
+$$
+
+$$
+⇔ x\in \bigcap _{B\in F}(A\cup B)
+$$
+
+$$
+\therefore A \cup (\bigcap _{B\in F}B)=(\bigcap _{B\in F}A \cup B) \ \ \ \ \ \blacksquare
+$$
