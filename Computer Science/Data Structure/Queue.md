@@ -48,7 +48,7 @@ print("Queue size:", queue_size)  # Output: Queue size: 2
 ```
 이 방법은 리스트를 사용하는 것보다 더 효율적이며, 스레드 간 동기화를 지원하기 때문에 다중 스레드 환경에서도 사용할 수 있습니다.
 
-<h2>수학적 엄밀화</h2>
+<h2>수학적 정의</h2>
 <img src="https://user-images.githubusercontent.com/81010325/230551659-7304d76f-8d99-4ab4-b2fd-59bb2f1ca23d.JPG">
 위 이미지와 같이 범주론의 맥락에서 큐를 정의할 수 있습니다.
 
