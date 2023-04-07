@@ -3,6 +3,6 @@
 집합론은 수학의 다양한 분야에서 응용되며, 다른 수학적 개념과 이론을 연구하는 데 필수적인 도구로 사용됩니다. 또한, 집합론은 수학의 여러 가지 무한성(infinity)에 대한 이해를 돕기도 합니다.
 
 -목차-
-1. [First Order Logic]
-2. 
-3. 
+1. [First Order Logic](https://github.com/weird14446/Study/blob/main/Mathematics/Set%20theory/First%20Order%20Logic.md)
+2. [기본 용어 정리]()
+3. [집합족]()
