@@ -133,7 +133,7 @@ $$
 $$
 
 $$
-⇔ \bigcup _{B\in F}(A\cap B)
+⇔ x\in \bigcup _{B\in F}(A\cap B)
 $$
 
 $$
