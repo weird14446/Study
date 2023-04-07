@@ -71,7 +71,7 @@ $$
 $$
 
 $$
-\therefore ( \bigcup _{i\in I}A_i ) ^c=\bigcap _{i\in I}{A_i}^c \blacksquare
+\therefore ( \bigcup _{i\in I}A_i ) ^c=\bigcap _{i\in I}{A_i}^c \ \ \ \ \ \blacksquare
 $$
 
 2번 드모르간 법칙의 증명
@@ -97,7 +97,7 @@ $$
 $$
 
 $$
-\therefore ( \bigcap _{i\in I}A_i ) ^c=\bigcup _{i\in I}{A_i}^c \blacksquare
+\therefore ( \bigcap _{i\in I}A_i ) ^c=\bigcup _{i\in I}{A_i}^c \ \ \ \ \ \blacksquare
 $$
 
 <h2>분배법칙</h2>
@@ -137,5 +137,5 @@ $$
 $$
 
 $$
-\therefore A \cap (\bigcup _{B\in F}B)=(\bigcup _{B\in F}A \cap B) \blacksquare
+\therefore A \cap (\bigcup _{B\in F}B)=(\bigcup _{B\in F}A \cap B) \ \ \ \ \ \blacksquare
 $$
