@@ -160,3 +160,33 @@ print(combined_list)  # 출력: [1, 2, 3, 4, 5, 6]
 ![List Categories](https://user-images.githubusercontent.com/81010325/230599323-91c5d066-4fb1-404f-b680-28e445de9e3d.JPG)
 
 
+여기서
+
+
+$$
+push_A:S_A\otimes A\rightarrow S_A
+$$
+
+$$
+pop_A:S_A→S_A⊗A+I
+$$
+
+위 두 사상은 각각 push 함수와 pop 함수를 의미지만 실제 프로그래밍에선 append 함수와 remove 함수를 의미합니다.
+
+X는 곱이라 부르며, 다음과 같습니다.
+
+$$
+X = ∏_{i∈I}X_i
+$$
+
+인덱싱은 다음과 같습니다.
+
+$$
+\pi _i:X \rightarrow X_i
+$$
+
+위 사상을 인덱싱으로 볼 수 있으며, 다음과 같습니다.
+
+$$
+\pi_i\(X) = X[i]
+$$
