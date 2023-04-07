@@ -93,7 +93,7 @@ $$
 \forall x, y\in X:(xRy\land yRx)\rightarrow (x=y)
 $$
 
-5. 전이성
+5. 추이성
 
 $$
 \forall x, y, z\in X:(xRy\land yRz)\rightarrow (xRz)
