@@ -157,8 +157,27 @@ print(combined_list)  # 출력: [1, 2, 3, 4, 5, 6]
 리스트 L은 다음 두 성질을 만족하는 자료구조입니다.
 
 
-![List Categories](https://user-images.githubusercontent.com/81010325/230601123-8e964d32-c486-48a0-96ff-9fe35d166835.JPG)
+<img src="https://i.upmath.me/svg/%0A%5C%5B%5Cbegin%7Btikzcd%7D%0A%09%5Ctextcolor%7Bwhite%7D%7BL_A%5Cotimes%20A%7D%20%26%26%20%5Ctextcolor%7Bwhite%7D%7BL_A%5Cotimes%20A%2BI%7D%20%5C%5C%0A%09%26%20%5Ctextcolor%7Bwhite%7D%7BL_A%7D%20%26%26%20%5Ctextcolor%7Bwhite%7D%7BS_L%20%2BI%7D%0A%09%5Carrow%5B%22%7Bpush_L%7D%22'%2C%20color%3Dwhite%2C%20from%3D1-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%7Bpop_L%7D%22'%2C%20color%3Dwhite%2C%20from%3D2-2%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22%7Bpush_L%2BI%7D%22%2C%20color%3Dwhite%2C%20from%3D1-3%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22%7B%CE%B9_%7BL_A%5Cotimes%20A%2CI%7D%7D%22'%2C%20color%3Dwhite%2C%20from%3D2-2%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22%7B%CE%B9_%7BL_A%5Cotimes%20A%2CI%7D%7D%22%2C%20color%3Dwhite%2C%20from%3D1-1%2C%20to%3D1-3%5D%0A%5Cend%7Btikzcd%7D%5C%5D%0A" alt="
+\[\begin{tikzcd}
+	\textcolor{white}{L_A\otimes A} &amp;&amp; \textcolor{white}{L_A\otimes A+I} \\
+	&amp; \textcolor{white}{L_A} &amp;&amp; \textcolor{white}{S_L +I}
+	\arrow[&quot;{push_L}&quot;', color=white, from=1-1, to=2-2]
+	\arrow[&quot;{pop_L}&quot;', color=white, from=2-2, to=1-3]
+	\arrow[&quot;{push_L+I}&quot;, color=white, from=1-3, to=2-4]
+	\arrow[&quot;{ι_{L_A\otimes A,I}}&quot;', color=white, from=2-2, to=2-4]
+	\arrow[&quot;{ι_{L_A\otimes A,I}}&quot;, color=white, from=1-1, to=1-3]
+\end{tikzcd}\]
+" />
 
+<img src="https://i.upmath.me/svg/%0A%5C%5B%5Cbegin%7Btikzcd%7D%0A%09%26%20%5Ctextcolor%7Bwhite%7D%7BL%7D%20%5C%5C%0A%09%5Ctextcolor%7Bwhite%7D%7BY%7D%20%26%20%5Ctextcolor%7Bwhite%7D%7BL_i%7D%0A%09%5Carrow%5B%22f%22%2C%20color%3Dwhite%2C%20dashed%2C%20from%3D2-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22%7B%5Cpi%20_i%7D%22%2C%20color%3Dwhite%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%7Bf_i%7D%22'%2C%20color%3Dwhite%2C%20from%3D2-1%2C%20to%3D2-2%5D%0A%5Cend%7Btikzcd%7D%5C%5D%0A" alt="
+\[\begin{tikzcd}
+	&amp; \textcolor{white}{L} \\
+	\textcolor{white}{Y} &amp; \textcolor{white}{L_i}
+	\arrow[&quot;f&quot;, color=white, dashed, from=2-1, to=1-2]
+	\arrow[&quot;{\pi _i}&quot;, color=white, from=1-2, to=2-2]
+	\arrow[&quot;{f_i}&quot;', color=white, from=2-1, to=2-2]
+\end{tikzcd}\]
+" />
 
 여기서
 
