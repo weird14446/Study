@@ -58,7 +58,15 @@ my_list.pop(2) # my_list is now [1, 10, 4, 5, 6]
 위와 같이 파이썬 리스트를 사용하면 배열과 유사한 자료 구조를 구현할 수 있습니다. 리스트는 동적이며 다양한 데이터 타입을 함께 저장할 수 있다는 장점이 있지만, 연속적인 메모리 할당과 같은 일부 배열의 특성을 가지지는 않습니다. 더 엄격한 배열 구현이 필요한 경우, 파이썬의 **`array`** 모듈을 사용할 수 있습니다.
 <h2>수학적 정의</h2>
 
-![Product Categories](https://user-images.githubusercontent.com/81010325/230597991-dae8048b-4447-4336-a5dc-2ce79faa1153.JPG)
+<img src="https://i.upmath.me/svg/%0A%5C%5B%5Cbegin%7Btikzcd%7D%0A%09%26%20%5Ctextcolor%7Bwhite%7D%7BX%7D%20%5C%5C%0A%09%5Ctextcolor%7Bwhite%7D%7BY%7D%20%26%20%5Ctextcolor%7Bwhite%7D%7BX_i%7D%0A%09%5Carrow%5B%22%7Bf_i%7D%22'%2C%20color%3Dwhite%2C%20from%3D2-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22f%22%2C%20color%3Dwhite%2C%20dashed%2C%20from%3D2-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22%7B%5Cpi%20_i%7D%22%2C%20color%3Dwhite%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%5Cend%7Btikzcd%7D%5C%5D%0A" alt="
+\[\begin{tikzcd}
+	&amp; \textcolor{white}{X} \\
+	\textcolor{white}{Y} &amp; \textcolor{white}{X_i}
+	\arrow[&quot;{f_i}&quot;', color=white, from=2-1, to=2-2]
+	\arrow[&quot;f&quot;, color=white, dashed, from=2-1, to=1-2]
+	\arrow[&quot;{\pi _i}&quot;, color=white, from=1-2, to=2-2]
+\end{tikzcd}\]
+" />
 
 위 이미지와 같이 범주론의 맥락에서 배열을 정의할 수 있습니다. 여기서 X는 곱이라 부르며, 다음과 같습니다.
 
