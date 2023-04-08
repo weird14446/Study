@@ -183,11 +183,11 @@ print(combined_list)  # 출력: [1, 2, 3, 4, 5, 6]
 
 
 $$
-append_A:S_A\otimes A\rightarrow S_A
+append_A:L_A\otimes A\rightarrow L_A
 $$
 
 $$
-remove_A:S_A→S_A⊗A+I
+remove_A:L_A→L_A⊗A+I
 $$
 
 위 두 사상은 각각 append 함수와 remove 함수를 의미합니다.
