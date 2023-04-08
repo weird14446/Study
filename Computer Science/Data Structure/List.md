@@ -182,11 +182,11 @@ $$
 인덱싱은 다음과 같습니다.
 
 $$
-\pi _i:X \rightarrow X_i
+\pi _i:L \rightarrow L_i
 $$
 
 위 사상을 인덱싱으로 볼 수 있으며, 다음과 같습니다.
 
 $$
-\pi_i\(X) = X[i]
+\pi_i\(L) = L[i]
 $$
