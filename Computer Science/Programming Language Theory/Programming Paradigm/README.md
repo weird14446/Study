@@ -6,7 +6,7 @@
 
 <li>객체지향 프로그래밍(Object-Oriented Programming, OOP): 객체지향 프로그래밍은 문제를 해결하기 위해 객체와 그 객체 간의 상호작용에 초점을 둡니다. 객체는 상태와 행위를 캡슐화하고, 상속, 다형성, 캡슐화 등의 원칙을 사용하여 코드를 구조화합니다. 이 패러다임은 소프트웨어의 재사용성, 유지 보수성을 높이고, 코드의 모듈화를 쉽게 할 수 있도록 돕습니다. Java, C++, Python 등의 언어가 이에 해당합니다.
 
-<li>함수형 프로그래밍(Functional Programming): 함수형 프로그래밍은 문제 해결에 수학적 함수의 개념을 적용하는 방식입니다. 이 패러다임에서는 불변성, 순수 함수, 고차 함수 등을 사용하여 코드를 작성하며, 상태 변경이나 부작용을 최소화하여 프로그램의 예측 가능성과 테스트 용이성을 높입니다. Haskell, Lisp, Erlang, Scala 등의 언어가 이에 해당합니다.
+<li>[함수형 프로그래밍](https://github.com/weird14446/Study/tree/main/Computer%20Science/Programming%20Language%20Theory/Programming%20Paradigm/Functional%20Programming)(Functional Programming): 함수형 프로그래밍은 문제 해결에 수학적 함수의 개념을 적용하는 방식입니다. 이 패러다임에서는 불변성, 순수 함수, 고차 함수 등을 사용하여 코드를 작성하며, 상태 변경이나 부작용을 최소화하여 프로그램의 예측 가능성과 테스트 용이성을 높입니다. Haskell, Lisp, Erlang, Scala 등의 언어가 이에 해당합니다.
 
 <li>논리형 프로그래밍(Logical Programming): 논리형 프로그래밍은 문제의 해결을 위해 논리식을 사용하는 패러다임입니다. 이 패러다임에서는 문제의 해결을 위해 선언형 방식으로 논리적 명제와 규칙을 정의하고, 추론 기반으로 솔루션을 찾습니다. Prolog 등의 언어가 이에 해당합니다.
 </ul>
