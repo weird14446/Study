@@ -24,7 +24,7 @@ class BankAccount:
 
 ```
 
-위의 코드에서 **`BankAccount`** 클래스는 **`_balance`** 속성(데이터)과 **`deposit`**, **`withdraw`**, **`get_balance`** 메서드(행위)를 캡슐화합니다. **`_balance`** 앞에 있는 언더스코어(_)는 속성이 private임을 나타내는 파이썬의 관례입니다. 이렇게 함으로써, 계좌의 잔액에 직접 접근하여 변경하는 대신, **`deposit`**과 **`withdraw`** 메서드를 사용하여 상호작용합니다.
+위의 코드에서 **`BankAccount`** 클래스는 **`_balance`** 속성(데이터)과 **`deposit`**, **`withdraw`**, **`get_balance`** 메서드(행위)를 캡슐화합니다. **`_balance`** 앞에 있는 언더스코어(_)는 속성이 private임을 나타내는 파이썬의 관례입니다. 이렇게 함으로써, 계좌의 잔액에 직접 접근하여 변경하는 대신, **`deposit`** 과 **`withdraw`** 메서드를 사용하여 상호작용합니다.
 
 ```python
 
