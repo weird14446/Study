@@ -33,3 +33,33 @@ print(stack)  # 출력: [1, 2]
 위 예제에서, **`append`** 메서드를 사용하여 스택에 데이터를 추가(Push)하고, **`pop`** 메서드를 사용하여 스택의 맨 위에 있는 데이터를 제거하고 반환(Pop)합니다.
 
 하지만 파이썬의 리스트를 스택으로 사용할 때 주의할 점은, 리스트의 앞쪽에서 데이터를 추가하거나 제거하면 성능이 저하되기 때문에, 항상 리스트의 뒷쪽에서 Push와 Pop 연산을 수행해야 한다는 것입니다. 이렇게 하면 상수 시간에(즉, O(1) 복잡도로) 데이터를 추가하거나 제거할 수 있습니다.
+
+## 수학적 정의
+
+
+<img src="https://i.upmath.me/svg/%0A%5C%5B%5Cbegin%7Btikzcd%7D%0A%09%5Ctextcolor%7Bwhite%7D%7BS_A%5Cotimes%20A%7D%20%26%26%20%5Ctextcolor%7Bwhite%7D%7BS_A%5Cotimes%20A%2BI%7D%20%5C%5C%0A%09%26%20%5Ctextcolor%7Bwhite%7D%7BS_A%7D%20%26%26%20%5Ctextcolor%7Bwhite%7D%7BS_A%20%2BI%7D%0A%09%5Carrow%5B%22%7Bpush_A%7D%22'%2C%20color%3Dwhite%2C%20from%3D1-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%7Bpop_A%7D%22'%2C%20color%3Dwhite%2C%20from%3D2-2%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22%7Bpush_A%2BI%7D%22%2C%20color%3Dwhite%2C%20from%3D1-3%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22%7B%CE%B9_%7BS_A%5Cotimes%20A%2CI%7D%7D%22'%2C%20color%3Dwhite%2C%20from%3D2-2%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22%7B%CE%B9_%7BS_A%5Cotimes%20A%2CI%7D%7D%22%2C%20color%3Dwhite%2C%20from%3D1-1%2C%20to%3D1-3%5D%0A%5Cend%7Btikzcd%7D%5C%5D%0A" alt="
+\[\begin{tikzcd}
+	\textcolor{white}{S_A\otimes A} &amp;&amp; \textcolor{white}{S_A\otimes A+I} \\
+	&amp; \textcolor{white}{S_A} &amp;&amp; \textcolor{white}{S_A +I}
+	\arrow[&quot;{push_A}&quot;', color=white, from=1-1, to=2-2]
+	\arrow[&quot;{pop_A}&quot;', color=white, from=2-2, to=1-3]
+	\arrow[&quot;{push_A+I}&quot;, color=white, from=1-3, to=2-4]
+	\arrow[&quot;{ι_{S_A\otimes A,I}}&quot;', color=white, from=2-2, to=2-4]
+	\arrow[&quot;{ι_{S_A\otimes A,I}}&quot;, color=white, from=1-1, to=1-3]
+\end{tikzcd}\]
+" />
+
+
+위 이미지와 같이 범주론의 맥락에서 스택을 정의할 수 있습니다.
+
+
+$$
+push_A:S_A\otimes A\rightarrow S_A
+$$
+
+
+$$
+pop_A:S_A→S_A⊗A+I
+$$
+
+위 두 사상은 각각 push 함수와 pop 함수를 의미합니다.
