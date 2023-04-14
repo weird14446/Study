@@ -3,7 +3,7 @@
 
 이론 컴퓨터 과학의 주요 주제는 다음과 같습니다:
 
-1. [**알고리즘(Algorithms)**](https://github.com/weird14446/Study/tree/main/Computer%20Science/Theoretical%20Computer%20Science/Algorithm): 알고리즘은 문제를 해결하기 위한 명확한 절차나 순서입니다. 이론 컴퓨터 과학에서는 알고리즘의 성능과 효율성을 분석하고, 서로 다른 알고리즘의 상대적인 장단점을 평가합니다.
+1. [**알고리즘(Algorithms)**](https://github.com/weird14446/Study/tree/main/Computer%20Science/Theoretical%20Computer%20Science/Algorithm)와 [자료구조](): 알고리즘은 문제를 해결하기 위한 명확한 절차나 순서입니다. 이론 컴퓨터 과학에서는 알고리즘의 성능과 효율성을 분석하고, 서로 다른 알고리즘의 상대적인 장단점을 평가합니다. 자료구조는 데이터를 효율적으로 저장, 조직화하고 관리하기 위한 방법입니다. 데이터를 저장하고 접근할 수 있는 효율적인 방식을 제공하며, 특정 알고리즘에서 사용하기 적합한 구조를 가집니다.
 2. **계산 이론(Computability Theory)**: 계산 이론은 어떤 문제가 컴퓨터로 풀 수 있는지, 그리고 어떤 문제가 계산적으로 불가능한지를 연구합니다. 계산 이론은 튜링 기계, 람다 대수 등 다양한 계산 모델을 다룹니다.
 3. [**복잡도 이론(Complexity Theory)**](https://github.com/weird14446/Study/tree/main/Computer%20Science/Theoretical%20Computer%20Science/Complexity%20Theory): 복잡도 이론은 문제의 복잡성을 측정하고 분류하는 데 초점을 맞춥니다. 복잡도 이론은 문제를 다양한 복잡도 클래스로 분류하며, P vs NP 문제와 같은 중요한 이론적 질문을 다룹니다.
 4. **공식 언어 및 오토마타 이론(Formal Languages and Automata Theory)**: 공식 언어는 문자와 규칙으로 구성된 추상적인 언어로, 프로그래밍 언어의 구문과 같은 구조를 설명하는 데 사용됩니다. 오토마타 이론은 이러한 공식 언어를 인식하거나 생성하는 계산 모델을 연구합니다.
