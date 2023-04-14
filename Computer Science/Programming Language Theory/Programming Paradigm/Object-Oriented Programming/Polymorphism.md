@@ -1,41 +1,33 @@
-<h1>Polymorphism</h1>
+# Polymorphism
 
-다형성은 객체 지향 프로그래밍의 핵심 원칙 중 하나로, 하나의 인터페이스나 클래스를 여러 개의 다른 형태로 구현하는 기능입니다. 파이썬에서 다형성은 동적 타이핑의 특성을 활용해 구현할 수 있습니다. 이를 통해 유연한 코드 작성이 가능하며, 클래스 간의 결합도를 낮춰 유지 보수와 확장성을 높입니다.
+다형성(polymorphism)은 객체 지향 프로그래밍(OOP)의 핵심 원칙 중 하나로, 여러 다른 유형의 객체가 동일한 인터페이스나 추상 기본 클래스를 구현하거나 상속함으로써 동일한 이름의 메서드를 호출해도 다양한 행동을 보일 수 있게 하는 개념입니다.
 
-앞서 상속 예제에서 사용한 **`Animal`**, **`Dog`**, **`Cat`** 클래스를 사용하여 다형성을 설명하겠습니다. 다형성을 활용하여 동물들이 소리를 내는 함수를 작성해봅시다.
+다형성의 목적은 코드의 유연성과 재사용성을 높이는 것입니다. 다형성을 사용하면 하나의 인터페이스나 기본 클래스를 사용하여 다양한 객체 유형을 처리할 수 있으며, 새로운 객체 유형을 추가할 때 기존 코드를 변경하지 않고도 쉽게 적용할 수 있습니다.
 
-```python
-
-def make_animals_speak(animals):
-    for animal in animals:
-        animal.make_sound()
-
-```
-
-이 함수는 **`Animal`** 클래스와 그 하위 클래스의 객체를 인자로 받아 소리를 내게 할 수 있습니다.
+다음은 파이썬에서 다형성을 구현하는 예시입니다:
 
 ```python
+class Animal:
+    def make_sound(self):
+        pass
 
-dog = Dog("Buddy")
-cat = Cat("Mittens")
-bird = Animal("Tweety", "Bird")
+class Dog(Animal):
+    def make_sound(self):
+        return "Woof!"
 
-animals = [dog, cat, bird]
+class Cat(Animal):
+    def make_sound(self):
+        return "Meow!"
 
-make_animals_speak(animals)
+def play_sound(animal):
+    print(animal.make_sound())
 
+dog = Dog()
+cat = Cat()
+
+play_sound(dog)  # 출력: Woof!
+play_sound(cat)  # 출력: Meow!
 ```
+위 예시에서 Animal 클래스는 make_sound라는 메서드를 정의하고 있습니다. Dog와 Cat 클래스는 Animal 클래스를 상속받아 make_sound 메서드를 오버라이딩하여 각각의 동물들이 내는 소리를 반환합니다.
 
-위 코드를 실행하면 다음과 같은 결과를 얻습니다.
-
-```
-
-Woof!
-Meow!
-Some generic animal sound
-
-```
-
-**`make_animals_speak`** 함수는 인자로 주어진 객체의 타입이나 내부 구현에 관계없이 **`make_sound()`** 메서드를 호출할 수 있습니다. 이를 통해 코드가 유연하게 동작하며, 새로운 하위 클래스가 추가되더라도 기존 코드를 수정하지 않고도 해당 클래스의 객체를 처리할 수 있습니다.
-
-이처럼 파이썬에서 다형성을 이용하면 객체의 실제 타입에 상관없이 메서드를 호출할 수 있어, 코드의 유연성과 확장성이 향상됩니다.
+play_sound 함수는 Animal 타입의 객체를 매개변수로 받아 해당 객체의 make_sound 메서드를 호출합니다. 이렇게 하면 다양한 동물 객체를 전달하여 해당 동물의 소리를 출력할 수 있습니다. 이러한 다형성은 코드의 유연성을 높여주고 새로운 동물 클래스가 추가되더라도 기존 코드를 변경하지 않고 적용할 수 있습니다.
