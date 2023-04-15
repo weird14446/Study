@@ -5,7 +5,7 @@
 
 1. [정렬 알고리즘](https://github.com/weird14446/Study/tree/main/Computer%20Science/Theoretical%20Computer%20Science/Algorithm/Sort%20Algorithm)(Sorting Algorithm): 데이터를 특정 순서대로 정렬하는 알고리즘입니다. 버블 정렬(Bubble Sort), 선택 정렬(Selection Sort), 삽입 정렬(Insertion Sort), 퀵 정렬(Quick Sort), 병합 정렬(Merge Sort) 등이 있습니다.
 
-2. [탐색 알고리즘](https://github.com/weird14446/Study/tree/main/Computer%20Science/Algorithm/Search%20Algorithm)(Search Algorithm): 데이터 집합에서 특정 원소를 찾는 알고리즘입니다. 선형 탐색(Linear Search), 이진 탐색(Binary Search), 깊이 우선 탐색(Depth-First Search, DFS), 너비 우선 탐색(Breadth-First Search, BFS) 등이 있습니다.
+2. [탐색 알고리즘](https://github.com/weird14446/Study/tree/main/Computer%20Science/Theoretical%20Computer%20Science/Algorithm/Search%20Algorithm)(Search Algorithm): 데이터 집합에서 특정 원소를 찾는 알고리즘입니다. 선형 탐색(Linear Search), 이진 탐색(Binary Search), 깊이 우선 탐색(Depth-First Search, DFS), 너비 우선 탐색(Breadth-First Search, BFS) 등이 있습니다.
 
 3. [그래프 알고리즘](https://github.com/weird14446/Study/tree/main/Computer%20Science/Algorithm/Graph%20Algorithm)(Graph Algorithm): 그래프를 사용하여 문제를 해결하는 알고리즘입니다. 최단 경로 알고리즘(Dijkstra's Algorithm, Bellman-Ford Algorithm), 최소 신장 트리 알고리즘(Kruskal's Algorithm, Prim's Algorithm), 위상 정렬(Topological Sorting), 최대 유량 알고리즘(Ford-Fulkerson Algorithm, Edmonds-Karp Algorithm) 등이 있습니다.
 
