@@ -7,7 +7,7 @@
 
 2. [탐색 알고리즘](https://github.com/weird14446/Study/tree/main/Computer%20Science/Theoretical%20Computer%20Science/Algorithm/Search%20Algorithm)(Search Algorithm): 데이터 집합에서 특정 원소를 찾는 알고리즘입니다. 선형 탐색(Linear Search), 이진 탐색(Binary Search), 깊이 우선 탐색(Depth-First Search, DFS), 너비 우선 탐색(Breadth-First Search, BFS) 등이 있습니다.
 
-3. [그래프 알고리즘](https://github.com/weird14446/Study/tree/main/Computer%20Science/Algorithm/Graph%20Algorithm)(Graph Algorithm): 그래프를 사용하여 문제를 해결하는 알고리즘입니다. 최단 경로 알고리즘(Dijkstra's Algorithm, Bellman-Ford Algorithm), 최소 신장 트리 알고리즘(Kruskal's Algorithm, Prim's Algorithm), 위상 정렬(Topological Sorting), 최대 유량 알고리즘(Ford-Fulkerson Algorithm, Edmonds-Karp Algorithm) 등이 있습니다.
+3. [그래프 알고리즘](https://github.com/weird14446/Study/tree/main/Computer%20Science/Theoretical%20Computer%20Science/Algorithm/Graph%20Algorithm)(Graph Algorithm): 그래프를 사용하여 문제를 해결하는 알고리즘입니다. 최단 경로 알고리즘(Dijkstra's Algorithm, Bellman-Ford Algorithm), 최소 신장 트리 알고리즘(Kruskal's Algorithm, Prim's Algorithm), 위상 정렬(Topological Sorting), 최대 유량 알고리즘(Ford-Fulkerson Algorithm, Edmonds-Karp Algorithm) 등이 있습니다.
 
 4. 다이나믹 프로그래밍(Dynamic Programming): 문제를 여러 개의 하위 문제로 나누고, 각 하위 문제의 해결 방법을 저장하여 전체 문제를 해결하는 알고리즘입니다. 피보나치 수열(Fibonacci Sequence), 최장 증가 부분 수열(Longest Increasing Subsequence), 배낭 문제(Knapsack Problem) 등이 있습니다.
 
