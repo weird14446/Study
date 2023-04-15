@@ -3,7 +3,7 @@
 
 알고리즘은 다양한 분야에서 활용되며, 몇 가지 대표적인 알고리즘 유형을 살펴보겠습니다:
 
-1. [정렬 알고리즘](https://github.com/weird14446/Study/tree/main/Computer%20Science/Algorithm/Sort%20Algorithm)(Sorting Algorithm): 데이터를 특정 순서대로 정렬하는 알고리즘입니다. 버블 정렬(Bubble Sort), 선택 정렬(Selection Sort), 삽입 정렬(Insertion Sort), 퀵 정렬(Quick Sort), 병합 정렬(Merge Sort) 등이 있습니다.
+1. [정렬 알고리즘](https://github.com/weird14446/Study/tree/main/Computer%20Science/Theoretical%20Computer%20Science/Algorithm/Sort%20Algorithm)(Sorting Algorithm): 데이터를 특정 순서대로 정렬하는 알고리즘입니다. 버블 정렬(Bubble Sort), 선택 정렬(Selection Sort), 삽입 정렬(Insertion Sort), 퀵 정렬(Quick Sort), 병합 정렬(Merge Sort) 등이 있습니다.
 
 2. [탐색 알고리즘](https://github.com/weird14446/Study/tree/main/Computer%20Science/Algorithm/Search%20Algorithm)(Search Algorithm): 데이터 집합에서 특정 원소를 찾는 알고리즘입니다. 선형 탐색(Linear Search), 이진 탐색(Binary Search), 깊이 우선 탐색(Depth-First Search, DFS), 너비 우선 탐색(Breadth-First Search, BFS) 등이 있습니다.
 
