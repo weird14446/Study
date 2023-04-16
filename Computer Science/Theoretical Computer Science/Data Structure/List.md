@@ -157,17 +157,15 @@ print(combined_list)  # 출력: [1, 2, 3, 4, 5, 6]
 리스트 L은 다음 두 성질을 만족하는 자료구조입니다.
 
 
-<img src="https://i.upmath.me/svg/%0A%5C%5B%5Cbegin%7Btikzcd%7D%0A%09%5Ctextcolor%7Bwhite%7D%7BL_A%5Cotimes%20A%7D%20%26%26%20%5Ctextcolor%7Bwhite%7D%7BL_A%5Cotimes%20A%2BI%7D%20%5C%5C%0A%09%26%20%5Ctextcolor%7Bwhite%7D%7BL_A%7D%20%26%26%20%5Ctextcolor%7Bwhite%7D%7BL_A%2BI%7D%0A%09%5Carrow%5B%22%7Bappend_A%7D%22'%2C%20color%3Dwhite%2C%20from%3D1-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%7Bremove_A%7D%22'%2C%20color%3Dwhite%2C%20from%3D2-2%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22%7Bappend_L%2BA%7D%22%2C%20color%3Dwhite%2C%20from%3D1-3%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22%7B%CE%B9_%7BL_A%5Cotimes%20A%2CI%7D%7D%22%2C%20color%3Dwhite%2C%20from%3D1-1%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22%7B%CE%B9_%7BL_A%5Cotimes%20A%2CI%7D%7D%22'%2C%20color%3Dwhite%2C%20from%3D2-2%2C%20to%3D2-4%5D%0A%5Cend%7Btikzcd%7D%5C%5D%0A" alt="
-\[\begin{tikzcd}
-	\textcolor{white}{L_A\otimes A} &amp;&amp; \textcolor{white}{L_A\otimes A+I} \\
+<img src="https://i.upmath.me/svg/%5C%5B%5Cbegin%7Btikzcd%7D%0A%09%5Ctextcolor%7Bwhite%7D%7BL_A%20%5Cotimes%20A%7D%20%26%26%20%5Ctextcolor%7Bwhite%7D%7BL_A%20%5Cotimes%20A%2BI%7D%20%5C%5C%0A%09%26%20%5Ctextcolor%7Bwhite%7D%7BL_A%7D%20%26%26%20%5Ctextcolor%7Bwhite%7D%7BL_A%2BI%7D%0A%09%5Carrow%5B%22%7Bappend_A%7D%22'%2C%20color%3Dwhite%2C%20from%3D1-1%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%7Bremove_A%7D%22'%2C%20color%3Dwhite%2C%20from%3D2-2%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22%7Bappend_A%2BA%7D%22%2C%20color%3Dwhite%2C%20from%3D1-3%2C%20to%3D2-4%5D%0A%09%5Carrow%5B%22%7B%5Ciota%20_%7BL_A%5Cotimes%20A%2C%20I%7D%7D%22%2C%20color%3Dwhite%2C%20from%3D1-1%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22%7B%5Ciota%20_%7BL_A%5Cotimes%20A%2C%20I%7D%20%7D%22'%2C%20color%3Dwhite%2C%20from%3D2-2%2C%20to%3D2-4%5D%0A%5Cend%7Btikzcd%7D%5C%5D" alt="\[\begin{tikzcd}
+	\textcolor{white}{L_A \otimes A} &amp;&amp; \textcolor{white}{L_A \otimes A+I} \\
 	&amp; \textcolor{white}{L_A} &amp;&amp; \textcolor{white}{L_A+I}
 	\arrow[&quot;{append_A}&quot;', color=white, from=1-1, to=2-2]
 	\arrow[&quot;{remove_A}&quot;', color=white, from=2-2, to=1-3]
-	\arrow[&quot;{append_L+A}&quot;, color=white, from=1-3, to=2-4]
-	\arrow[&quot;{ι_{L_A\otimes A,I}}&quot;, color=white, from=1-1, to=1-3]
-	\arrow[&quot;{ι_{L_A\otimes A,I}}&quot;', color=white, from=2-2, to=2-4]
-\end{tikzcd}\]
-" />
+	\arrow[&quot;{append_A+A}&quot;, color=white, from=1-3, to=2-4]
+	\arrow[&quot;{\iota _{L_A\otimes A, I}}&quot;, color=white, from=1-1, to=1-3]
+	\arrow[&quot;{\iota _{L_A\otimes A, I} }&quot;', color=white, from=2-2, to=2-4]
+\end{tikzcd}\]" />
 
 <img src="https://i.upmath.me/svg/%0A%5C%5B%5Cbegin%7Btikzcd%7D%0A%09%26%20%5Ctextcolor%7Bwhite%7D%7BL%7D%20%5C%5C%0A%09%5Ctextcolor%7Bwhite%7D%7BY%7D%20%26%20%5Ctextcolor%7Bwhite%7D%7BL_i%7D%0A%09%5Carrow%5B%22f%22%2C%20color%3Dwhite%2C%20dashed%2C%20from%3D2-1%2C%20to%3D1-2%5D%0A%09%5Carrow%5B%22%7B%5Cpi%20_i%7D%22%2C%20color%3Dwhite%2C%20from%3D1-2%2C%20to%3D2-2%5D%0A%09%5Carrow%5B%22%7Bf_i%7D%22'%2C%20color%3Dwhite%2C%20from%3D2-1%2C%20to%3D2-2%5D%0A%5Cend%7Btikzcd%7D%5C%5D%0A" alt="
 \[\begin{tikzcd}
