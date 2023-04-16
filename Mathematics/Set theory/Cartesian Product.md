@@ -136,7 +136,7 @@ $$
 $$
 
 $$
-A, B\in P \land A\neq B \land A\cap B=\varnothing
+\forall A, B\in P \quad s.t \quad A\neq B \Rightarrow A\cap B=\varnothing
 $$
 
 <h2>동치류</h2>
