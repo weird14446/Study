@@ -136,7 +136,7 @@ $$
 $$
 
 $$
-A, B\in P \land A\neq B \rightarrow A\cap B=\varnothing
+A, B\in P \land A\neq B \Rightarrow A\cap B=\varnothing
 $$
 
 <h2>동치류</h2>
