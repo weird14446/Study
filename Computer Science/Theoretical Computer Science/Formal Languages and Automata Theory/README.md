@@ -2,7 +2,7 @@
 
 오토마타 이론(automata theory)은 추상적인 계산 모델과 그러한 계산 모델을 이용한 계산 가능성, 복잡성 및 언어 인식에 대한 연구입니다. 오토마타 이론은 컴퓨터 과학, 수학, 논리학 및 형식 언어 이론에서 중요한 역할을 합니다. 이론에서 다루는 주요 객체는 다음과 같은 유한 오토마타와 같은 계산 모델입니다.
 
-1. 유한 오토마타(Finite Automata, FA): 유한한 상태와 전이 규칙으로 구성된 간단한 계산 모델로, 형식 언어를 인식하는 데 사용됩니다. 유한 오토마타는 결정적 유한 오토마타(Deterministic Finite Automata, DFA)와 비결정적 유한 오토마타(Non-deterministic Finite Automata, NFA)로 나뉩니다.
+1. [유한 오토마타(Finite Automata, FA)](https://github.com/weird14446/Study/blob/main/Computer%20Science/Theoretical%20Computer%20Science/Formal%20Languages%20and%20Automata%20Theory/Finite%20Automata.md): 유한한 상태와 전이 규칙으로 구성된 간단한 계산 모델로, 형식 언어를 인식하는 데 사용됩니다. 유한 오토마타는 결정적 유한 오토마타(Deterministic Finite Automata, DFA)와 비결정적 유한 오토마타(Non-deterministic Finite Automata, NFA)로 나뉩니다.
 
 2. 푸시다운 오토마타(Pushdown Automata, PDA): 유한 오토마타에 스택을 추가한 계산 모델로, 문맥 자유 문법(Context-Free Grammar, CFG)을 인식할 수 있습니다.
 
