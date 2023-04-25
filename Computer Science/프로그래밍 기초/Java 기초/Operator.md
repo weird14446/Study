@@ -231,3 +231,63 @@ public class Main {
 이러한 비교 연산자는 조건문(예: if, while, for) 및 논리 연산자와 함께 사용되어 프로그램의 흐름을 제어하는 데 사용됩니다.
 
 ## 논리 연산자
+
+자바에서 논리 연산자(logical operators)는 주로 불린(boolean) 값(true 또는 false)을 가지는 피연산자를 대상으로 연산을 수행합니다. 논리 연산자는 조건문과 반복문에서 특히 유용하게 사용됩니다. 자바에서 사용되는 주요 논리 연산자는 다음과 같습니다:
+
+1. AND 연산자 (&&): 두 피연산자가 모두 참일 경우에만 참을 반환합니다. 그렇지 않으면 거짓을 반환합니다.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        boolean result = true && false; // result는 false가 됩니다.
+    }
+}
+```
+
+1. OR 연산자 (||): 두 피연산자 중 하나 이상이 참일 경우 참을 반환합니다. 그렇지 않으면 거짓을 반환합니다.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        boolean result = true || false; // result는 true가 됩니다.
+    }
+}
+```
+
+1. NOT 연산자 (!): 피연산자의 논리 값을 반전시킵니다. 즉, 참이면 거짓을 반환하고, 거짓이면 참을 반환합니다.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        boolean result = !true; // result는 false가 됩니다.
+    }
+}
+```
+
+이러한 논리 연산자를 사용하여 복잡한 조건을 표현할 수 있습니다.
+자세한 내용은 집합론 강의를 참고해주시길 바랍니다.
+
+## 삼항 연산자
+
+자바에서 삼항 연산자(ternary operator)는 간단한 if-else 구문을 축약하여 사용할 수 있는 조건 연산자입니다. 삼항 연산자는 '?'와 ':' 기호를 사용하며, 다음과 같은 형식으로 사용됩니다.
+
+```java
+condition ? expression1 : expression2;
+```
+
+삼항 연산자는 먼저 조건(condition)을 평가합니다. 조건이 참인 경우 expression1을 반환하고, 거짓인 경우 expression2를 반환합니다. 이렇게 삼항 연산자를 사용하면 간단한 조건문을 간결하게 표현할 수 있습니다.
+
+예를 들어, 두 수 중에서 큰 수를 찾는 예제를 삼항 연산자를 사용하여 다음과 같이 작성할 수 있습니다.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        int max = (a > b) ? a : b;
+        System.out.println("The maximum value is " + max);
+    }
+}
+```
+
+위 코드에서 삼항 연산자는 (a > b) 조건을 평가하고, 이 조건이 참이면 a를 반환하고 거짓이면 b를 반환합니다. 이 예제에서는 b가 더 크므로 max 변수에는 20이 저장되고, "The maximum value is 20"이 출력됩니다.

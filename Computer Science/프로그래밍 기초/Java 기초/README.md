@@ -22,6 +22,26 @@ public class Main {
 }
 ```
 
+자바에서 **`System.out.println`** 함수는 표준 출력(일반적으로 콘솔 창)에 텍스트를 출력하고 줄 바꿈을 수행하는 데 사용됩니다. 이 함수는 자바 프로그램을 작성하고 실행할 때 결과를 확인하기 위한 도구로 자주 사용됩니다.
+
+**`System.out.println`** 함수의 간단한 설명:
+
+- **`System`**: 자바에서 기본 제공되는 클래스로, 표준 입출력과 관련된 기능을 제공합니다.
+- **`out`**: **`System`** 클래스의 정적(static) 필드로, **`PrintStream`** 객체를 참조합니다. 이 객체는 표준 출력 스트림을 나타냅니다.
+- **`println`**: **`PrintStream`** 클래스의 메서드로, 전달된 인자를 콘솔에 출력한 후 줄 바꿈을 수행합니다.
+
+간단한 사용 예제:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+위 코드를 실행하면 콘솔에 "Hello, World!"가 출력되고 줄 바꿈이 수행됩니다. **`System.out.println`** 함수는 문자열, 숫자, 불리언 값 등 다양한 데이터 타입을 인자로 받아 출력할 수 있습니다.
+
 ## 목차
 0. 개발 환경 구축
 1. 자료형과 변수
