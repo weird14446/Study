@@ -15,13 +15,13 @@
 코드는 기본적으로 다음과 같이 작성합니다.
 
 ```java
-public class Main {
+public class Main // 클래스의 이름은 파일 이름과 같다. 여기서는 파일 이름이 Main
+{
     public static void main(String[] args) {
         //여기에서 작업을 시작합니다.
     }
 }
 ```
-
 자바에서 **`System.out.println`** 함수는 표준 출력(일반적으로 콘솔 창)에 텍스트를 출력하고 줄 바꿈을 수행하는 데 사용됩니다. 이 함수는 자바 프로그램을 작성하고 실행할 때 결과를 확인하기 위한 도구로 자주 사용됩니다.
 
 **`System.out.println`** 함수의 간단한 설명:
@@ -46,12 +46,13 @@ public class Main {
 0. 개발 환경 구축
 1. [자료형과 변수](https://github.com/weird14446/Study/blob/main/Computer%20Science/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/Java%20%EA%B8%B0%EC%B4%88/Data%20Type%20and%20Variable.md)
 2. [연산자](https://github.com/weird14446/Study/blob/main/Computer%20Science/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/Java%20%EA%B8%B0%EC%B4%88/Operator.md)
-3. 제어문
-4. 배열
-5. 메소드
-6. 클래스
-7. 추상 클래스와 인터페이스
-8. 제네릭스
-9. 익명 클래스, 람다와 스트림
-10. 예외처리
-11. 입출력과 파일
+3. [문자열]()
+4. [제어문]()
+5. [배열]()
+6. [메소드]()
+7. [클래스]()
+8. [추상 클래스와 인터페이스]()
+9. [제네릭스]()
+10. [익명 클래스, 람다와 스트림]()
+11. [예외처리]()
+12. [입출력과 파일]()
