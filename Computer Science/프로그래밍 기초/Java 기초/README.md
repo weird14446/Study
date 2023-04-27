@@ -46,7 +46,7 @@ public class Main {
 0. 개발 환경 구축
 1. [자료형과 변수](https://github.com/weird14446/Study/blob/main/Computer%20Science/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/Java%20%EA%B8%B0%EC%B4%88/Data%20Type%20and%20Variable.md)
 2. [연산자](https://github.com/weird14446/Study/blob/main/Computer%20Science/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/Java%20%EA%B8%B0%EC%B4%88/Operator.md)
-3. [문자열]()
+3. [문자열](https://github.com/weird14446/Study/blob/main/Computer%20Science/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/Java%20%EA%B8%B0%EC%B4%88/String.md)
 4. [제어문]()
 5. [배열]()
 6. [메소드]()
