@@ -22,7 +22,7 @@ String example = new String("Hello, World!");
 
 이 방식은 **`new`** 키워드와 함께 **`String`** 생성자를 사용하여 새로운 **`String`** 객체를 생성합니다. 이 경우, 각 객체는 별도의 메모리 공간에 저장됩니다.
 
-**`String`** 클래스는 불변(immutable)입니다. 즉, 한 번 생성된 문자열은 변경할 수 없습니다. 문자열에 대한 수정 작업이 필요한 경우, **`StringBuilder`** 또는 **`StringBuffer`**와 같은 가변(mutable) 문자열 클래스를 사용할 수 있습니다.
+**`String`** 클래스는 불변(immutable)입니다. 즉, 한 번 생성된 문자열은 변경할 수 없습니다. 문자열에 대한 수정 작업이 필요한 경우, **`StringBuilder`** 또는 **`StringBuffer`** 와 같은 가변(mutable) 문자열 클래스를 사용할 수 있습니다.
 
 자바의 **`String`** 클래스는 문자열을 조작하고 처리하는 데 필요한 다양한 메소드를 제공합니다. 예를 들어, **`length()`**, **`charAt()`**, **`substring()`**, **`indexOf()`**, **`startsWith()`**, **`endsWith()`**, **`equals()`**, **`equalsIgnoreCase()`**, **`replace()`**, **`toLowerCase()`**, **`toUpperCase()`** 등이 있습니다.
 
@@ -129,7 +129,7 @@ public class StringIndexOfExample {
 
 1. **`equals()`** 메소드를 사용한 문자열 비교:
 
-**`equals()`** 메소드는 두 문자열이 동일한지를 확인합니다. 이 메소드는 두 문자열이 정확히 같은 문자로 구성되어 있다면 **`true`**를 반환하고, 그렇지 않으면 **`false`**를 반환합니다. 이 메소드를 사용하면 대소문자를 구분하여 문자열을 비교할 수 있습니다.
+**`equals()`** 메소드는 두 문자열이 동일한지를 확인합니다. 이 메소드는 두 문자열이 정확히 같은 문자로 구성되어 있다면 **`true`** 를 반환하고, 그렇지 않으면 **`false`** 를 반환합니다. 이 메소드를 사용하면 대소문자를 구분하여 문자열을 비교할 수 있습니다.
 
 예제:
 
