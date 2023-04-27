@@ -157,7 +157,7 @@ public class StringEqualsExample {
 
 예제:
 
-```
+```java
 public class StringCompareToExample {
     public static void main(String[] args) {
         String str1 = "apple";
