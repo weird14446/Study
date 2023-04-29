@@ -29,7 +29,7 @@ String example = new String("Hello, World!");
 다음은 자바에서 문자열을 사용하는 간단한 예제입니다:
 
 ```java
-public class StringExample {
+public class Main {
     public static void main(String[] args) {
         String hello = "Hello, ";
         String world = "World!";
@@ -58,7 +58,7 @@ public class StringExample {
 다음은 소문자와 대문자 변환 메소드를 사용하는 예제입니다:
 
 ```java
-public class LowerUpperCaseExample {
+public class Main {
     public static void main(String[] args) {
         String example = "Hello, World!";
 
@@ -88,7 +88,7 @@ public class LowerUpperCaseExample {
 예제:
 
 ```java
-public class StringContainsExample {
+public class Main {
     public static void main(String[] args) {
         String example = "Hello, World!";
         String search = "World";
@@ -106,7 +106,7 @@ public class StringContainsExample {
 예제:
 
 ```java
-public class StringIndexOfExample {
+public class Main {
     public static void main(String[] args) {
         String example = "Hello, World!";
         String search = "World";
@@ -134,7 +134,7 @@ public class StringIndexOfExample {
 예제:
 
 ```java
-public class StringEqualsExample {
+public class Main {
     public static void main(String[] args) {
         String str1 = "Hello, World!";
         String str2 = "Hello, World!";
@@ -158,7 +158,7 @@ public class StringEqualsExample {
 예제:
 
 ```java
-public class StringCompareToExample {
+public class Main {
     public static void main(String[] args) {
         String str1 = "apple";
         String str2 = "banana";
@@ -194,7 +194,7 @@ public class StringCompareToExample {
 다음은 자바에서 탈출 문자를 사용하는 예제입니다:
 
 ```java
-public class EscapeCharacterExample {
+public class Main {
     public static void main(String[] args) {
         // 큰따옴표를 포함한 문자열
         String quote = "She said, \"Hello, World!\"";
