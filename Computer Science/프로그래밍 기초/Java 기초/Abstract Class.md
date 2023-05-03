@@ -44,7 +44,7 @@ public interface Animal {
 }
 ```
 
-이 인터페이스에는 **`makeSound`**라는 메소드가 정의되어 있지만, 메소드의 구현은 제공되지 않습니다. 이 메소드의 구현은 **`Animal`** 인터페이스를 구현하는 클래스에서 제공되어야 합니다.
+이 인터페이스에는 **`makeSound`** 라는 메소드가 정의되어 있지만, 메소드의 구현은 제공되지 않습니다. 이 메소드의 구현은 **`Animal`** 인터페이스를 구현하는 클래스에서 제공되어야 합니다.
 
 ```java
 public class Dog implements Animal {

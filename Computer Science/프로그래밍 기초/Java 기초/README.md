@@ -42,8 +42,10 @@ public class Main {
 
 위 코드를 실행하면 콘솔에 "Hello, World!"가 출력되고 줄 바꿈이 수행됩니다. **`System.out.println`** 함수는 문자열, 숫자, 불리언 값 등 다양한 데이터 타입을 인자로 받아 출력할 수 있습니다.
 
-## 목차
-0. 개발 환경 구축
+# 목차
+
+## 자바
+0. [개발 환경 구축]()
 1. [자료형과 변수](https://github.com/weird14446/Study/blob/main/Computer%20Science/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/Java%20%EA%B8%B0%EC%B4%88/Data%20Type%20and%20Variable.md)
 2. [연산자](https://github.com/weird14446/Study/blob/main/Computer%20Science/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/Java%20%EA%B8%B0%EC%B4%88/Operator.md)
 3. [문자열](https://github.com/weird14446/Study/blob/main/Computer%20Science/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/Java%20%EA%B8%B0%EC%B4%88/String.md)
@@ -55,4 +57,15 @@ public class Main {
 9. [익명 클래스, 람다와 스트림]()
 10. [예외처리]()
 11. [입출력과 파일]()
-12. [자바 메모리 구조]()
+12. [컴퓨터 구조와 운영체제]()
+13. [자바 메모리 구조]()
+
+## 네트워크와 웹
+
+1. [쓰레드와 네트워크 프로그래밍]()
+2. [웹 기초]()
+3. [HTML]()
+4. [CSS]()
+5. [Javascript]()
+
+## 데이터베이스 기초
