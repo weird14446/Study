@@ -69,3 +69,87 @@ public class Cat implements Animal {
 - 여러 클래스 사이에서 메소드를 공유하려는 경우
 
 인터페이스를 사용함으로써, 우리는 클래스의 행동을 정의하는 '계약'을 만들고, 이 '계약'을 따르는 클래스를 작성할 수 있습니다. 이는 코드의 일관성을 유지하고, 다형성을 지원하는 데 유용합니다.
+
+인터페이스는 상수를 정의할 수 있습니다. 인터페이스의 필드는 자동으로 **`public`**, **`static`**, **`final`** 이 됩니다.
+
+```java
+public interface Constants {
+    /*public static final*/ double PI = 3.14159;
+}
+```
+
+인터페이스는 클래스와 객체의 설계를 위한 중요한 도구입니다. 클래스가 인터페이스를 구현함으로써, 해당 클래스가 어떤 메서드를 반드시 포함해야 하는지 정의할 수 있습니다. 이는 다형성을 지원하며, 특히 다른 개발자들이 코드를 사용하거나 유지 보수할 때 유용합니다.
+
+## 내부 클래스
+
+자바에서 내부 클래스(inner class)는 클래스 내부에 선언된 클래스입니다. 내부 클래스를 사용하면 코드의 복잡성을 줄이고, 캡슐화를 강화할 수 있습니다. 내부 클래스는 크게 4가지 종류가 있습니다.
+
+1. **멤버 내부 클래스(member inner class):** 이는 일반 클래스 내부에 선언된 클래스로, 클래스의 멤버처럼 동작합니다. 멤버 내부 클래스는 외부 클래스의 모든 멤버(필드, 메서드)에 접근할 수 있습니다.
+
+```java
+class Outer {
+    private int outerVariable = 10;
+
+    class Inner {
+        void print() {
+            System.out.println("Outer variable: " + outerVariable);
+        }
+    }
+}
+```
+
+2. **정적 내부 클래스(static inner class):** 멤버 내부 클래스에서 **`static`** 키워드를 사용한 클래스입니다. 정적 내부 클래스는 외부 클래스의 인스턴스에 종속되지 않고 독립적으로 동작합니다. 따라서 외부 클래스의 인스턴스 멤버에 접근할 수 없고, 오직 정적 멤버에만 접근할 수 있습니다.
+
+```java
+class Outer {
+    private static int staticOuterVariable = 20;
+
+    static class StaticInner {
+        void print() {
+            System.out.println("Static outer variable: " + staticOuterVariable);
+        }
+    }
+}
+```
+
+3. **지역 내부 클래스(local inner class):** 메서드 내부에서 선언된 클래스입니다. 지역 내부 클래스는 메서드 내에서만 사용할 수 있으며, 메서드 내의 로컬 변수를 참조할 수 있지만, 로컬 변수는 **`final`** 또는 사실상 **`final`** 이어야 합니다.
+
+```java
+class Outer {
+    void outerMethod() {
+        int localVariable = 30;
+
+        class LocalInner {
+            void print() {
+                System.out.println("Local variable: " + localVariable);
+            }
+        }
+
+        LocalInner inner = new LocalInner();
+        inner.print();
+    }
+}
+```
+
+4. **익명 내부 클래스(anonymous inner class):** 이름이 없는 클래스로, 클래스 선언과 객체 생성을 동시에 수행합니다. 주로 추상 클래스를 상속하거나 인터페이스를 구현할 때 사용되며, 주로 이벤트 리스너와 같은 작업에서 사용됩니다.
+
+```java
+interface Printable {
+    void print();
+}
+
+class Outer {
+    void createAnonymousInner() {
+        Printable printable = new Printable() {
+            @Override
+            public void print() {
+                System.out.println("Anonymous inner class");
+            }
+        };
+
+        printable.print();
+    }
+}
+```
+
+이와 같이 내부 클래스는 코드의 가독성과 캡슐화를 향상시키는데 도움이 됩니다. 각 내부 클래스의 종류에 따라 다양한 상황에서 사용할 수 있습니다.
